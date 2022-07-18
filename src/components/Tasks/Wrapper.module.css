@@ -1,0 +1,31 @@
+.main {
+    max-width: 46rem;
+    margin: 0 auto;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoTitle,
+.completedInfoTitle {
+    font-size: 14px;
+}
+
+.infoTitle {
+    color: var(--blue);
+}
+
+.completedInfoTitle {
+    color: var(--purple);
+}
+
+.infoCounter,
+.completedInfoCounter {
+    font-size: 0.75rem;
+    padding: 0.125rem 0.5rem;
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 1rem;
+}
